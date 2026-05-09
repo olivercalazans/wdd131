@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>WDD 131 – Dynamic Web Fundamentals – Oliver R. Calazans Jeronimo</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals – Oliver R. Calazans Jeronimo. Cybersecurity analyst and aspiring software developer from Natal, Brazil.">
+    <meta name="author" content="Oliver R. Calazans Jeronimo">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals – Oliver R. Calazans Jeronimo</span>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/olivercalazans" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" target="_blank" rel="noopener noreferrer">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank" rel="noopener noreferrer">Scripture</a></li>
+                <li><a href="#" id="project-placeholder">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Oliver R. Calazans Jeronimo</h1>
+        <div class="cards-container">
+            <section class="card">
+                <h2>About Me</h2>
+                <div class="card-content about-grid">
+                    <div class="about-text">
+                        <p>I'm Oliver, a cybersecurity analyst with a strong passion for programming. I currently work protecting digital assets and investigating threats, and I truly enjoy solving complex problems through code. I love learning new technologies and I'm always looking for ways to merge security with software development.</p>
+                        <p><strong>Natal, Brazil</strong></p>
+                        <!-- Imagem da cidade centralizada -->
+                        <div class="city-image-wrapper">
+                            <img src="images/natal.webp" alt="Panorama of Natal, Brazil" class="city-img">
+                        </div>
+                        <p class="full-width-text">Natal is a beautiful coastal city in northeastern Brazil, known for its stunning dunes, beaches like Ponta Negra, and the famous Forte dos Reis Magos. I was born and raised here, and the city's growing tech scene inspires me to pursue both cybersecurity and software development. I intend to keep growing in cybersecurity and dive deeper into full-stack development.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/myself.jpeg" alt="Oliver R. Calazans Jeronimo - profile photo" class="profile-img">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Card Web Dev Resources (sem alterações visuais) -->
+            <section class="card">
+                <h2>Web Dev Resources</h2>
+                <div class="card-content">
+                    <div class="card-text">
+                        <ul>
+                            <li>Dev.to Community</li>
+                            <li>Smashing Magazine</li>
+                            <li>CSS Tricks</li>
+                            <li>W3 Schools</li>
+                            <li>Udemy</li>
+                            <li>Lorem Picsum Image Placeholder</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> <a href="https://www.linkedin.com/in/olivercalazans" target="_blank" rel="noopener noreferrer">Oliver R. Calazans Jeronimo</a> | <a href="#" target="_blank">Natal, Brazil</a></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
